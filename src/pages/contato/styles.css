@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.box1, .box2 {
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.box1 {
+    background-image: url('../../assets/fundo_vermelho_preto.jpg');
+    background-position: 50%;
+    background-size: cover;
+    flex-direction: column;
+    width: 75%;
+    margin: 5px 12%;
+}
+
+#title-contact {
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px 2px rgba(0,0,0,.5);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+    border-color: white;
+}
+
+.box-contact, .forms {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5%;
+    width: 50%;
+}
+
+.box2 {
+    width: 95%;
+}
+
+.span {
+    padding: 10px;
+}
+
+.contact-us {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#mensagem {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px 2px rgba(0,0,0,.5);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    height: 150px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+    border-color: white;
+}
+
+.button {
+    background-color: aqua;
+    color: black;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/*
+.title-contact {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+*/

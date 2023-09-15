@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+h1 {
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.images-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.images-content {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.image:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://noticiasdatv.uol.com.br/media/_versions/artigos_2021/batman-robert-pattinson-capuz-foto-divulgacao-warner-bros_fixed_large.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMHTMhOsakLMaqBYgfuEbUDz9H74COboLxJDWtYf-L7qesm1bpXZAEnygTGsQ9JyOkmp8&usqp=CAU');
+}
+
+.banner-3 {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/4Z6yxVu5LGNyQ7bfstbsg8.png');
+}
+
+.banner-4 {
+    background-image: url('https://www.latercera.com/resizer/xp_o1EpRTd9fuqzZIfMbElcHPgw=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/PVKVWNP5VNA5HNR2GX364I2EFM.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://s2.glbimg.com/SrTFFXZqVaH0a2N8QMcxKwLea8M=/620x413/top/e.glbimg.com/og/ed/f/original/2016/03/11/header-new-details-revealed-for-henry-cavills-superman-suit_1.jpg');
+}
+
+.banner-6 {
+    background-image: url('https://nerdsefilmes.com/wp-content/uploads/2022/05/A-estrela-Black-Panther-2-diz-que-Wakanda-Forever-e-tudo-sobre-Chadwick-Boseman2.png');
+}
+
+.banner-7 {
+    background-image: url('https://cinesiageek.com.br/wp-content/uploads/2023/06/20230614_222638.jpg');
+}
+
+.banner-8 {
+    background-image: url('https://geeksaw.com.br/wp-content/uploads/2021/01/Chris-Evans-in-Avengers-Endgame-as-Captain-America.jpg');
+}
